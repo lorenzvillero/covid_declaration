@@ -24,10 +24,10 @@
                                     <div class="card-body text-center">
                                     <?php
                                     // Connect to the database (replace with your credentials)
-                                    $host = "localhost";
-                                    $username = "root";
-                                    $password = "";
-                                    $database = "covid_declaration";
+                                    $host = "sql105.infinityfree.com";
+                                    $username = "if0_35099791";
+                                    $password = "uq5qlxmijKbkzD";
+                                    $database = "if0_35099791_covid_declaration";
 
                                     $conn = new mysqli($host, $username, $password, $database);
 
@@ -57,7 +57,7 @@
                                     if ($stmt->execute()) {
                                         echo '<h3 class="text-center font-weight-light my-4">Covid-19 declaration successfully added to database</h3>';
                                         // Add a link to go to the dashboard
-                                        echo '<p><div class="small"><a href="main.php">Go to dashboard</a></div></p>';
+                                        echo '<p><div class="small"><a href="index.php">Go to dashboard</a></div></p>';
                                     } else {
                                         echo '<p><a href="404.html">Go to Dashboard</a></p>';
                                     }

@@ -81,7 +81,7 @@
                                         </form>
                                     </div>
                                     <div class="card-footer text-center py-3">
-                                    <div class="small"><a href="main.php">Go to dashboard</a></div>
+                                    <div class="small"><a href="index.php">Go to dashboard</a></div>
                                         <div class="small"><a href="register.html">Need help? Please refer to this manual</a></div>
                                     </div>
                                 </div>

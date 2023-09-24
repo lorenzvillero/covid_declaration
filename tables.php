@@ -1,9 +1,10 @@
 <?php
 // Connect to the database (replace with your credentials)
-$host = "localhost";
-$username = "root";
-$password = "";
-$database = "covid_declaration";
+$host = "sql105.infinityfree.com";
+$username = "if0_35099791";
+$password = "uq5qlxmijKbkzD";
+$database = "if0_35099791_covid_declaration";
+
 
 $conn = new mysqli($host, $username, $password, $database);
 
@@ -64,7 +65,7 @@ $foreignerCount = $rowForeigner['foreigner_count'];
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="main.php">Dashboard</a>
+            <a class="navbar-brand ps-3" href="index.php">Dashboard</a>
             <!-- Sidebar Toggle-->
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
             <!-- Navbar-->
@@ -75,7 +76,7 @@ $foreignerCount = $rowForeigner['foreigner_count'];
                     <div class="sb-sidenav-menu">
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading">Core</div>
-                            <a class="nav-link" href="main.php">
+                            <a class="nav-link" href="index.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
                             </a>
@@ -96,7 +97,7 @@ $foreignerCount = $rowForeigner['foreigner_count'];
                     <div class="container-fluid px-4">
                         <h1 class="mt-4">Covid-19 Declaration Data</h1>
                         <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item"><a href="main.php">Dashboard</a></li>
+                            <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
                             <li class="breadcrumb-item active">All Data</li>
                         </ol>
                         
