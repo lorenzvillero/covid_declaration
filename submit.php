@@ -32,6 +32,8 @@ $stmt->bind_param("ssiiissss", $full_name, $gender, $age, $mobile_num, $body_tem
 
 if ($stmt->execute()) {
     echo "Declaration submitted successfully!";
+    // Add a link to go to the dashboard
+    echo '<p><a href="dashboard.php">Go to Dashboard</a></p>';
 } else {
     echo "Error: " . $stmt->error;
 }

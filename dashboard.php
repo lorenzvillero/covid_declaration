@@ -118,7 +118,10 @@ $foreignerCount = $rowForeigner['foreigner_count'];
             ?>
         </tbody>
     </table>
-</body>
+<?php
+    echo '<p><a href="index.php">Create new declaration</a></p>';
+?>
+    </body>
 </html>
 
 <?php

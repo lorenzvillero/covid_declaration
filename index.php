@@ -52,5 +52,6 @@
 
         <input type="submit" value="Submit">
     </form>
+    <p>Already submitted a declaration? <a href="dashboard.php">View Dashboard</a></p>
 </body>
 </html>
